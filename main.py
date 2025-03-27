@@ -23,3 +23,4 @@ async def funcaoteste():
 @app.get("/randnum")
 async def funcaoteste2():
     return {"message": True, "Numero Random": random.randint(0, 1000)}
+
